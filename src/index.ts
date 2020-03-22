@@ -1,5 +1,2 @@
-export { default as Foobar, FoobarProps } from "./Foobar";
-export {
-  default as FoobarContainer,
-  FoobarContainerProps
-} from "./FoobarContainer";
+export * from "@advclb/react-button";
+import "./Button.css";

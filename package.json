@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "start": "ac doc:start",
-    "build": "ac doc:build && ac lib:build",
+    "build": "ac doc:build && ac lib:build && rm -rf lib && tsc --project tsconfig.json --declaration --outDir lib && cp src/*css lib",
     "deploy": "gh-pages -d doc/dist",
     "test": "jest",
     "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx src/ doc/src/ && stylelint --fix src/**/*.css src/**/*.scss doc/src/**/*.css doc/src/**/*.scss",
@@ -27,9 +27,11 @@
   },
   "homepage": "https://github.com/advclb/foobar#readme",
   "devDependencies": {
+    "@advclb/react-button": "0.0.3",
     "@advclb/scripts": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@types/react-router-dom": "^5.1.3",
     "eslint": "latest",
     "eslint-config-advclb": "latest",
     "eslint-config-advclb-react": "latest",
@@ -39,6 +41,7 @@
     "prettier": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-router-dom": "^5.1.2",
     "stylelint": "latest",
     "stylelint-config-advclb": "latest",
     "typescript": "latest"

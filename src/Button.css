@@ -1,0 +1,7 @@
+.button {
+  --button-min-width: 200px;
+  --button-border-radius: 0;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s;
+}
