@@ -29,6 +29,7 @@
   "devDependencies": {
     "@advclb/react-button": "0.0.3",
     "@advclb/scripts": "latest",
+    "@types/classnames": "^2.2.10",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@types/react-router-dom": "^5.1.3",

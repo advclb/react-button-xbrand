@@ -1,2 +1,1 @@
-export * from "@advclb/react-button";
-import "./Button.css";
+export { default as Button, ButtonProps } from "./Button";
