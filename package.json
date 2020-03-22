@@ -1,0 +1,46 @@
+{
+  "name": "@advclb/foobar",
+  "version": "1.0.0",
+  "description": "Foobar library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "scripts": {
+    "start": "ac doc:start",
+    "build": "ac doc:build && ac lib:build",
+    "deploy": "gh-pages -d doc/dist",
+    "test": "jest",
+    "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx src/ doc/src/ && stylelint --fix src/**/*.css src/**/*.scss doc/src/**/*.css doc/src/**/*.scss",
+    "format": "prettier --write src/** doc/src/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advclb/foobar.git"
+  },
+  "author": "First Last <first.last@example.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/advclb/foobar/issues"
+  },
+  "homepage": "https://github.com/advclb/foobar#readme",
+  "devDependencies": {
+    "@advclb/scripts": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-advclb": "latest",
+    "eslint-config-advclb-react": "latest",
+    "eslint-config-advclb-typescript": "latest",
+    "gh-pages": "latest",
+    "jest": "latest",
+    "prettier": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "stylelint": "latest",
+    "stylelint-config-advclb": "latest",
+    "typescript": "latest"
+  }
+}
