@@ -1,7 +1,7 @@
 {
-  "name": "@advclb/foobar",
+  "name": "@advclb/react-button-xbrand",
   "version": "1.0.0",
-  "description": "Foobar library",
+  "description": "react-button-xbrand library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/advclb/foobar.git"
+    "url": "git+https://github.com/advclb/react-button-xbrand.git"
   },
   "author": "First Last <first.last@example.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/advclb/foobar/issues"
+    "url": "https://github.com/advclb/react-button-xbrand/issues"
   },
-  "homepage": "https://github.com/advclb/foobar#readme",
+  "homepage": "https://github.com/advclb/react-button-xbrand#readme",
   "devDependencies": {
     "@advclb/react-button": "0.0.3",
     "@advclb/scripts": "latest",
